@@ -1,0 +1,18 @@
+{
+  "name": "tmp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "workee": "node --loader=ts-node/esm --experimental-specifier-resolution node index.ts",
+    "no-workee": "TS_NODE_TRANSPILE_ONLY=true npm run workee"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  },
+  "type": "module"
+}
